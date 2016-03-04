@@ -1,1 +1,26 @@
 /* Inserta tu código aqui */
+.navbar{
+    margin-bottom: 0px;
+}
+.navbar-right{
+    margin-right: 0px;
+    margin-left: 0px; 
+}
+.navbar-toggle {
+    background-color: white;
+    border-color: white;
+    border-radius: 0px;
+}
+.navbar-toggle .icon-bar {
+    background-color: black
+}
+.nav-tabs{
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: gray;
+    padding-top: 5%;
+}
+.home-box{
+   background-color: gray;
+   color: white;
+}

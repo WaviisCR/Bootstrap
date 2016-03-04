@@ -3,9 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Bootstrap: Grid System</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
-
+	<link rel="stylesheet" type="text/css" href="css/icomoon.css">
+  
     <!-- HTML5 Shim and Respond.js Agrega soporte para elementos HTML5 y media quieries en IE8 -->
     <!-- ADVERTENCIA: Respond.js no soporta que ejecutes tu código via file:// -->
     <!--[if lt IE 9]>
@@ -14,11 +17,211 @@
     <![endif]-->	
 </head>
 <body>
-	<!-- Inserta tu código aqui -->
+	  <div class="navbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Sitio Name</a> 
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Noticias</a></li>
+              <li><a href="#">Enlaces RSS</a></li>
+            <form class="navbar-form navbar-right collapse navbar-collapse" id="myNavbar">
+              <input type="text" class="form-control">
+              <button type="submit" class="btn btn-default">Buscar</button>
+            </form>
+          </ul>
+      </div>  
+    </div>
+	  
+	  
+	  
+	  <div class="container-fluid">
+      <ul class="nav nav-tabs" id="myTab">
+        <li class="active"><a href="#home">Bienvenido</a></li>
+        <li><a href="#actual">Actualidades</a></li>
+        <li><a href="#live">En directo</a></li>
+        <li><a href="#report">Reporte financiero</a></li>
+          <li><a href="#ofert">Nuestra oferta</a><li>
+          <li><a href="#from">De nosotros a usted</a><li>
+      </ul>
+       
+      <div class="tab-content">
+        <div class="tab-pane active" id="home">
+          <section>
+              <div class="row">
+                <div class="col-md-6 col-sm-7">
+                  <div class="destacados">
+                    <div class="home-box">
+                      <h2>Historia Destacada</h2>
+                    </div>
+                    <p><span>Articulo </span> publicado el 09/10/15</p>
+                  </div>
+                  <div class="article">
+                    <h3>Lorem ipsum dolor sit amet</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                    ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                    dolor in hendrerit in vulputate velit esse molestie consequat,
+                    vel illum dolore eu feugiat nulla facilisis at vero eros et
+                    accumsan et iusto odio dignissim qui blandit praesent luptatum.</p>
+                    <div><span class="glyphicons glyphicons-bookmark"></span><p>Ver más</p></div>
+                    <div><span></span> <a href="#">lorem</a> <a href="#">ipsum</a> <a href="#">diligat</a> </div>
+                  </div>
+                  <hr>
+                  <div class="article">
+                    <h3>Lorem ipsum dolor sit amet</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                    ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                    dolor in hendrerit in vulputate velit esse molestie consequat,
+                    vel illum dolore eu feugiat nulla facilisis at vero eros et
+                    accumsan et iusto odio dignissim qui blandit praesent luptatum.</p>
+                    <div><span class="glyphicons glyphicons-bookmark"></span><p>Ver más</p></div>
+                    <div> <span class="glyphicons glyphicons-tags"></span> <a href="#">lorem</a> <a href="#">ipsum</a> <a href="#">diligat</a> </div>
+                  </div>
+                  <hr>
+                  <div class="article">
+                    <h3>Lorem ipsum dolor sit amet</h3>
+                    <div>
+                      <img src="http://placehold.it/350x150">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                    ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                    dolor in hendrerit in vulputate velit esse molestie consequat,
+                    vel illum dolore eu feugiat nulla facilisis at vero eros et
+                    accumsan et iusto odio dignissim qui blandit praesent luptatu.</p>
+                    <div><span class="glyphicons glyphicons-bookmark"></span><p>Ver más</p></div>
+                    <div><span class="glyphicons glyphicons-tags"></span> <a href="#">lorem</a> <a href="#">ipsum</a> <a href="#">diligat</a> </div>
+                  </div>
+                  <div class="article">
+                    <h3>Lorem ipsum dolor sit amet</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                    quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                    ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                    dolor in hendrerit in vulputate velit esse molestie consequat,
+                    vel illum dolore eu feugiat nulla facilisis at vero eros et
+                    accumsan et iusto odio dignissim qui blandit praesent luptatu.</p>
+                    <div><span class="glyphicons glyphicons-bookmark"></span><p>Ver más</p></div>
+                    <div><span class="glyphicons glyphicons-tags"></span> <a href="#">lorem</a> <a href="#">ipsum</a> <a href="#">diligat</a> </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-5">
+                  <div class="bckg-gray">
+                    <div class="home-box">
+                      <h2>Historia Destacada</h2>
+                    </div>
+                    <div>
+                      <iframe width="420" height="315" src="https://www.youtube.com/embed/H8Qp38qT-xI" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="article-video">
+                      <h3>Claire Dupont</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                      magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                      quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                      ut aliquip ex ea commodo consequat.</p>
+                      <div><p>Publicado el 09/10/15</p></div>
+                      <div><span class="glyphicons glyphicons-bookmark"></span><p>Ver más</p></div>
+                  </div>
+                  <div class="home-box">
+                      <h2>Agenda</h2>
+                    </div>
+                    <div class="date-work">
+                      <div>
+                        <h3>26<br>Enero</h3>
+                      </div>
+                      <div>
+                        <div class = "description-day">
+                          <h6>Lorem ipsum dolor sit.</h6>
+                          <p>Lorem ipsum dolor sit amet, consectetur<br>adipisicing elit.</p>
+                          <p>Del 23 a 28 Diciembre 2015</p>
+                        </div>
+                      </div>
+                    </div>
+                     <div class="date-work">
+                      <div>
+                        <h3>26<br>Enero</h3>
+                      </div>
+                      <div>
+                        <div class = "description-day">
+                          <h6>Lorem ipsum dolor sit.</h6>
+                          <p>Lorem ipsum dolor sit amet, consectetur<br>adipisicing elit.</p>
+                          <p>Del 23 a 28 Diciembre 2015</p>
+                        </div>
+                      </div>
+                    </div>
+                     <div class="date-work">
+                      <div>
+                        <h3>26<br>Enero</h3>
+                      </div>
+                      <div>
+                        <div class = "description-day">
+                          <h6>Lorem ipsum dolor sit.</h6>
+                          <p>Lorem ipsum dolor sit amet, consectetur<br>adipisicing elit.</p>
+                          <p>Del 23 a 28 Diciembre 2015</p>
+                        </div>
+                      </div>
+                    </div>
+                     <div class="date-work">
+                      <div>
+                        <h3>26<br>Enero</h3>
+                      </div>
+                      <div>
+                        <div class = "description-day">
+                          <h6>Lorem ipsum dolor sit.</h6>
+                          <p>Lorem ipsum dolor sit amet, consectetur<br>adipisicing elit.</p>
+                          <p>Del 23 a 28 Diciembre 2015</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                   <div class = "row information">
+                    <h5>Más información</h5>
+                    <div class = "info">
+                      <h5><u><span>Localidades</span></u></h5>
+                      <h5>Lorem ipsum dolor sit.</h5>
+                      <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+                    </div>
+                    <div class = "info">
+                      <h5><u><span>Hospimedia</span></u></h5>
+                      <h5>Lorem ipsum dolor sit.</h5>
+                      <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  
+                </div>
+              </div>
+          </section>
 
+        </div>
+        <div class="tab-pane" id="actual">Actualidades</div>
+        <div class="tab-pane" id="live">En directo</div>
+        <div class="tab-pane" id="report">Reporte financiero</div>
+          <div class="tab-pane" id="ofert">Nuestra oferta</div>
+          <div class="tab-pane" id="from">De nosotros a usted</div>
+      </div>
+    </div>
+    
 	<!-- Incluir todos tus scripts apartir de este punto -->
     <!-- jQuery (necesario para que funcionen los componentes de Bootstrap) -->
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
